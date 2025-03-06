@@ -319,5 +319,3 @@ As alterações feitas no arquivo `main_mod2.tf` visam melhorar a segurança e a
 ## Nota sobre a mudança no `user_data`
 
 A mudança no `user_data` foi feita para garantir que o Nginx, Fail2ban e UFW sejam instalados e configurados automaticamente na inicialização da instância EC2. O uso do `cloud-config` simplifica a configuração inicial e garante que os serviços necessários estejam prontos para uso imediatamente após a inicialização.
-
-```
